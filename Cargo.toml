@@ -1,11 +1,15 @@
 [package]
 name = "atlassian-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
+publish = false
+license = "Apache-2.0"
 
 [lib]
 crate-type = ["cdylib"]
 path = "src/lib.rs"
 
 [dependencies]
-zed_extension_api = "0.2.0"
+zed_extension_api = "0.7.0"
+serde = "1.0"
+schemars = "0.8"
