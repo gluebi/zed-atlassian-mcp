@@ -1,11 +1,10 @@
 use std::env;
 use zed_extension_api::{
-    self as zed, serde_json, Command, ContextServerConfiguration, ContextServerId, Project, Result,
-    settings::ContextServerSettings,
+    self as zed, Command, ContextServerConfiguration, ContextServerId, Project, Result,
 };
 
 const PACKAGE_NAME: &str = "mcp-remote";
-const PACKAGE_VERSION: &str = "0.1.30"; // Pinned version - 0.1.31 has known issues
+const PACKAGE_VERSION: &str = "0.1.37"; // Latest version with Atlassian-specific fixes
 const PACKAGE_PATH: &str = "node_modules/mcp-remote/dist/proxy.js";
 const ATLASSIAN_MCP_URL: &str = "https://mcp.atlassian.com/v1/sse";
 
