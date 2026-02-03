@@ -1,7 +1,7 @@
 [package]
 id = "atlassian-mcp-server"
 name = "Atlassian MCP Server"
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 authors = ["Oliver Pietsch <oliver.pietsch@myposter.de>"]
 description = "Connect to Atlassian's Remote MCP Server for Jira, Confluence, and Compass integration"
