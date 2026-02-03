@@ -1,0 +1,11 @@
+[package]
+id = "atlassian-mcp-server"
+name = "Atlassian MCP Server"
+version = "0.1.0"
+schema_version = 1
+authors = ["Oliver Pietsch <oliver.pietsch@myposter.de>"]
+description = "Connect to Atlassian's Remote MCP Server for Jira, Confluence, and Compass integration"
+repository = "https://github.com/gluebi/zed-atlassian-mcp"
+
+[context_servers.atlassian-mcp-server]
+name = "Atlassian MCP Server"
